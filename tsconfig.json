@@ -13,7 +13,8 @@
     "baseUrl": ".", // Base directory to resolve non-relative module names
     "paths": {
       "@/*": ["src/*"] // Map '@/' to 'src/' for easier imports
-    }
+    },
+    "types": ["vitest/globals"]
   },
   "include": ["src"] // Include all files in the 'src' directory
 }
